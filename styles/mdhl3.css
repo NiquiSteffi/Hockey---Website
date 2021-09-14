@@ -1,0 +1,362 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*---- Estilos HEADER ----*/
+.container{
+    padding: 0 4vw;
+    display: flex;
+    flex-direction: column;
+}
+.container-header{
+    display: flex;
+    flex-direction: column;
+}
+.container-header h2{
+    background-color: rgb(187, 21, 21);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 2vh;
+    font-family: 'Bebas Neue', cursive;
+}
+#logo{
+    position: absolute;
+    width: 20vh;
+    background-color: white;
+    border: 2px solid black; 
+    right: 15vw;
+    top: 39.5vh;
+}
+/*---- Estilos del contenedor NAV y MAIN ----*/
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 6vh 0;
+}
+/*---- Estilos NAV ----*/ 
+.contenedor{
+    display: flex;
+    flex-direction: row;
+}
+/*Nav*/
+.container-nav{
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    text-decoration: none;
+}
+.container-nav a{
+    color: white;
+    padding: 3vh 0vw;
+    width: 15vw; /*Cambia el tamaño del contenido*/
+    background-color: rgb(187, 21, 21);
+    margin: 2vh 0;
+    font-size: 1.2vw;
+    border-radius: 7px;
+}
+.container-nav a:hover{
+    background-color: rgb(143, 130, 130);
+}
+/*---- Estilos MAIN index.html ----*/
+.container-main-index{
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+    border: 2px solid rgb(187, 21, 21);
+    margin: 12vh 2vw 0 6vw;
+    padding: 0 2vw;
+    height: 100%;
+}
+.div-main-index{
+    font-family: 'Bebas Neue', cursive;
+    margin: 2vh 2vw;
+    padding: 4vh 2vw;
+    width: 100%;
+}
+.div-main-index div{
+    margin-bottom: 3vh;
+}
+.div-main-index div h3{
+    font-weight: bolder; 
+    margin: 0;
+    padding: 0;
+}
+.div-main-index div p{
+    margin: 0;
+    padding: 0 1vw;
+}
+#imagen1{
+    width: 40%;
+    margin: 4vh 0vw;
+    padding: 0;
+}
+/*---- Estilos MAIN rules.html ----*/
+.container-main-rules{ 
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(187, 21, 21);
+    border-radius: 7px;
+    margin: 12vh 2vw 0 6vw;
+    padding: 0 3vw;
+    align-items: flex-start;
+    width: 100%;
+}
+.container-main-rules .titulos{
+    text-align: center;
+    margin: 3vh auto;
+    font-family: 'Poppins', sans-serif;
+}
+.container-main-rules .titulos h3{
+    margin: 0;
+}
+.container-main-rules .titulos h4{
+    margin: 0 0 2vh 0;
+}
+.container-main-rules .contenido{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 1vh 2vw;
+}
+.contenido2 dd{
+    margin:1vh 0 6vh 1vw;
+}
+.contenido2 dt{
+    font-weight: bolder; /*letra en negrita*/
+}
+#titulo-contenido3{
+    font-weight: bolder; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+.contenido3 li{
+    font-weight: bolder;
+}
+.contenido3 ol p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.contenido3 li p{
+    font-weight: normal;
+    padding: 0;
+    margin: 0 0 3vh 0;
+}
+.contenido3 .lista2 li{
+    font-weight: normal;
+    list-style-type: lower-alpha;
+}
+.contenido4 dt{
+    font-weight: bolder;
+    margin: 2vh;
+}
+.contenido4 ul li{
+    list-style-type: circle;
+}
+/*--- Estilos MAIN game_info.html ----*/
+.container-main-gameinfo{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(187, 21, 21);
+    border-radius: 7px;
+    margin: 12vh 2vw 0 6vw;
+    padding: 0;
+    align-items: flex-start;
+    width: 100%;
+}
+.div-main{
+    margin: 2vh auto;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+.div-main h2{
+    text-align: center;
+    margin: 2vh auto;
+    padding: 0;
+}
+.div-main h3{
+    margin: 0;
+    padding: 0;
+}
+/*---- ESTILOS DE TABLA ----*/
+.table-container{
+    margin: 0 auto;
+    margin-bottom: 8vh;
+    font-family: 'Poppins', sans-serif;
+}
+.table, tr, th, td{
+    border: 2px solid black;
+}
+table{
+    border-collapse: collapse;
+    background-color: rgb(197, 194, 194);
+    margin: 6vh auto;
+    margin-bottom: 6vh;
+}
+thead tr th{
+    padding: 2vh 1vw;
+    font-weight: bolder;
+    background-color: rgb(187, 21, 21);
+}
+tbody tr td{
+    padding: 1vh 1vw;
+}
+#p-table{
+    text-decoration: underline;
+}
+.table-container .p-table2{
+    display: flex;
+    flex-direction: row;
+}
+.table-container .p-table2 p{
+    margin: 0 4vw 0 0;
+}
+/*---- Estilo MAIN contact.html ----*/
+.container-main-contact{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(187, 21, 21);
+    border-radius: 7px;
+    margin: 12vh 2vw 0 6vw;
+    padding: 0;
+    align-items: flex-start;
+    width: 100%;
+    height: 50%;
+}
+#imagen3{
+    margin: 4vh 3vw;
+    width: 40%;
+}
+/*---- Estilos about.html ----*/
+.container-main-contact{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(187, 21, 21);
+    border-radius: 7px;
+    margin: 12vh 2vw 0 6vw;
+    padding: 0;
+    align-items: flex-start;
+    width: 100%;
+}
+#imagen2{
+    display: flex;
+    margin: 3vh 3vw;
+    margin-top: 20vh;
+    padding: 4vh 2vw 0 0;
+    width: 40%;
+    height: 40%;
+}
+.div-main-about div{
+    margin: 2vh 4vw 2vh 2vw;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+/* ------------ ESTILO form.html ------------*/
+.container-main-form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    margin: 12vh 2vw 0 6vw;
+    padding: 0;
+    align-items: flex-start;
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+#h1-form{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin: 4vh auto;
+    border: none;
+}
+input{
+    border-color: rgb(187, 21, 21);
+    border-radius: 5px;
+    background-color: white;
+}
+label{
+    font-family: 'Poppins', sans-serif;
+}
+#h1-formRegistration{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin: 4vh auto;
+    border: none;
+}
+.fieldset{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin: 0 0;
+    padding: 0 0;
+    border: none;
+}
+.fieldset2{
+    border: none;
+}
+.fieldsetPosition{
+    border: none;
+    margin: 2vh 0;
+}
+.fielset{
+    border: none;
+}
+.form{
+    display: flex;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px; 
+    padding: 3vh 2vw;
+    font-family: 'Noto Sans', sans-serif;
+    border: 4px solid rgb(187, 21, 21);
+    background-color: rgb(224, 215, 215);
+}
+.fieldsetGrade{
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+.grade{
+    justify-content: center;
+    margin-top: 1.5vh;
+    border: none;
+}
+.fieldsetUniform{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border: none;
+}
+.uniform{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    border: none;
+}
+.uniform label{
+    margin-right: 1.5vw;
+    width: auto;
+    border: none;
+}
+#h4Permission{
+    margin-bottom: 2vh;
+    border: none;
+}
+h3{
+    margin: 0;
+    padding: 0;
+    margin: 2vh 0 2vh 0;
+    
+}
+h4{
+    margin: 0;
+    margin: 2vh 0 2vh 0;
+}
+p{
+    font-family: 'Poppins', sans-serif;;
+}
+
+

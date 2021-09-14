@@ -1,0 +1,122 @@
+/*ESTRUCTURA GENERAL DE CADA HTML*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: rgb(187, 21, 21);
+    flex-direction: row;
+    height: 10vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    background-color: rgb(187, 21, 21);
+    margin-right: 3vw;
+}
+#logo{
+    width: 5.5%;
+    margin-left: 3vw;
+}
+nav > * + a{/*A todos los hijos directos de nav que tengan antes un hermano, se le aplica 1vw de margin-right*/
+    margin-left: 1vw;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    padding: 1vh 0;
+    height: 20vh;
+    width: 20vw;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2rem;
+    padding: 1vh .5vw;
+}
+nav a:hover{
+    color:rgb(230, 230, 66);
+    -webkit-text-stroke: .1px orangered; /*Le da bordes al texto*/
+}
+#banner{
+    width: 100%;
+    padding: 0;
+}
+h2{
+    color: white;
+    background-color: rgb(187, 21, 21);
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 1vh 0;
+}
+/*ESTRUCTURA GENERAL DE CADA HTML*/
+
+/* ----ESTILOS INDEX----*/
+.divMain{
+    height: 40%;
+    width: 80%;
+    margin: 17.5vh 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.divTextMain{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(221, 133, 133);
+    padding: 6vh 3vw 6vh 4vw;
+    margin: 0;
+}
+.divTextMain > * + div{
+    margin-top: 3vh;
+}
+.divMain h3{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+}
+.divMain p{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+#imagen1{
+    width: 50%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+#toggle-nav{
+    display: none;/*Permite que no se muestre el checkbox*/
+}
+
+#toggle-close{
+    display: none;
+}
+
+#toggle-nav:checked + label #toggle-open{ /*Indica que cuando #toggle-nav este chequeado, busque dentro de su hermano (label) algun hijo con el id (#toggle-open)*/
+    display: none;
+}
+
+#toggle-nav:checked + label #toggle-close{ /*Igual que la linea de arriba, con la diferencia de que en este caso, cuando #toggle-nav este chequeado se va a mostrar la "X"*/
+    display: none;
+}
+label[for="toggle-nav"]{
+    display: none;
+}
+
+/*----------------------------------------------------------------*/
+
+@media screen and (max-width: 767px) {
+    
+}   
+    
+    
