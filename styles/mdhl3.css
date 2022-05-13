@@ -207,13 +207,13 @@ body{
     width: 70%;
 }
 .div-main{
-    margin: 2vh auto;
+    margin: 6vh auto;
     padding: 0;
     font-family: 'Bebas Neue', cursive;
 }
 .div-main h2{
     text-align: center;
-    margin: 2vh auto;
+    margin: 0 auto;
     padding: 0;
 }
 .div-main h3{
@@ -272,7 +272,7 @@ tbody tr td{
     width: 70%;
     height: 100%;
 }
-.div-main{
+.div-main-contact{
     margin: 0;
     padding: 20vh 2vw;
     border-left: 1px solid gray;
