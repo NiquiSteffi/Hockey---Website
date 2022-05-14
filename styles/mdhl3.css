@@ -57,14 +57,6 @@ body{
     padding: 2vh;
     font-family: 'Bebas Neue', cursive;
 }
-#logo{
-    position: absolute;
-    width: 20vh;
-    background-color: white;
-    border: 2px solid black; 
-    right: 15vw;
-    top: 39.5vh;
-}
 /*---- Estilos del contenedor NAV y MAIN ----*/
 .contenedor{
     display: flex;
@@ -247,7 +239,7 @@ tbody tr td{
 }
 
 .table thead tr {
-    padding: 2vh 1vw;
+    /* padding: 2vh 1vw; */
     font-weight: bolder;
     background-color: rgb(187, 21, 21);
 }
@@ -282,7 +274,7 @@ tbody tr td{
     width: 50%;
 }
 /*---- Estilos about.html ----*/
-.container-main-contact{
+.container-main-about{
     display: flex;
     flex-direction: row;
     border: 2px solid rgb(187, 21, 21);
@@ -464,8 +456,192 @@ p{
     .container-header h2{
         border-bottom: 1px solid white;
     }
-
-    #banner{
-        margin-top: 55px;
+    
+    #imagen1{
+        width: 50%;
     }
+    
+    #imagen2{
+        width: 45%;
+    }
+
+    #imagen3{
+        width: 30vw;
+        height: 60vh;
+    }
+
+    .contenedor .container-main-contact{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 6vh;
+        margin-bottom: 6vh;
+        padding: 3vh 2vw;
+    }
+
+    .container-main-about{
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 6vh;
+        margin-bottom: 10vh;
+        padding: 20px;
+    }
+
+    .div-main-about{
+        flex-direction: column;
+    }
+
+    .div-main-about div{
+        border-left: 0;
+    }
+    
+    .banner{
+        margin-top: 50px;
+    }
+}
+/*-----------------------------------------------------------*/
+@media (max-width: 768px){
+    /*-- header --*/
+    .navbar .navbar-toggler{
+        background-color: white;
+        margin-left: 10px;
+    }
+
+    .banner{
+        margin-top: 50px;
+        height: 200px;
+    }
+
+    /*-- about --*/
+    #imagen2{
+        width: 70%;
+        padding: 0 20px 20px 20px;
+        border-bottom: 1px solid gray;
+    }
+
+    /*-- home --*/
+    .container-main-index{
+        flex-direction: column;
+        width: 60%;
+        margin-top: 10px;
+    }
+
+    .div-main-index{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-left: 0;
+        width: 70%;
+    }
+
+    #imagen1{
+        width: 80%;
+        margin: 0 auto;
+        padding: 0 15px 15px 15px;
+        border-bottom: 1px solid gray;
+    }
+    /*-- game info --*/
+    .container-main-gameinfo{
+        width: 75%;
+        padding: 30px;
+    }
+    /*-- contact --*/
+    .container-main-contact{
+        padding: 4vh 4vw;
+        width: 100%;
+        height: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .div-main-contact{
+        margin: 0;
+        padding: 2vh 2vw;
+    }
+
+    #imagen3{
+        width: 60%;
+        height: 30%;
+        padding: 2vh 2vw;
+    }
+    /*-- form --*/
+    .form{
+        width: 80%;
+        padding: 30px;
+    }
+    .fieldset{
+        width: 100%;
+    }
+    .fieldset-right{
+        margin-left: 30px;
+    }
+    .fieldsetUniform{
+        margin: 0;
+        padding: 6px 0 6px 0;
+        border-top: 1px solid gray;
+    }
+    .fieldsetPosition{
+        margin: 0;
+        padding: 6px 0 6px 0;
+        border-top: 1px solid gray;
+    }
+    #h4Permission{
+        padding-top: 6px;
+        border-top: 1px solid gray;
+    }
+    #street{
+        display: flex;
+        flex-direction: column;
+    }
+    #firstName{
+        width: 50%;
+    }
+}
+/*-----------------------------------------------------------*/
+@media (max-width: 480px){
+    /*-- header --*/
+    .navbar .navbar-toggler{
+        background-color: white;
+        margin-left: 10px;
+        width: 8%;
+        height: 35px;
+        padding: 0;
+    }
+
+    .banner{
+        margin-top: 50px;
+        height: 140px;
+    }
+
+    .container-header h2{
+        font-size: 20px;
+    }
+    /*-- header --*/
+    .container-main-index{
+        width: 60%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .div-main-index{
+        padding: 0;
+        padding-top: 10px;
+    }
+    /*-- rules --*/
+    .container-main-rules{
+        padding: 20px;
+    }
+    .titulos{
+        padding-bottom: 10px;
+        margin-bottom: 0;
+        border-bottom: 1px solid gray;
+    }
+    /*-- game info --*/
+    .container-main-gameinfo{
+        width: 90%;
+        padding: 8px;
+    }
+
+    .table{
+        width: 50%;
+    }
+
 }
