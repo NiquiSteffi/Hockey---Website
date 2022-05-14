@@ -615,9 +615,9 @@ p{
     .container-header h2{
         font-size: 20px;
     }
-    /*-- header --*/
+    /*-- home --*/
     .container-main-index{
-        width: 60%;
+        width: 80%;
         padding-left: 0;
         padding-right: 0;
     }
@@ -642,6 +642,48 @@ p{
 
     .table{
         width: 50%;
+    }
+
+}
+
+/*-----------------------------------------------------------*/
+@media (max-width: 320px){
+    /*-- header --*/
+    .navbar .navbar-toggler{
+        background-color: white;
+        margin-left: 10px;
+        width: 10%;
+        height: 30px;
+    }
+
+    .banner{
+        margin-top: 40px;
+        height: 100px;
+    }
+
+    /*-- home --*/
+    .container-main-index{
+        width: 90%;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .div-main-index{
+        padding-top: 10px;
+    }
+
+    #imagen1{
+        width: 95%;
+    }
+
+    /*-- footer --*/
+    .container-footer{
+        height: 100px;
+    }
+
+    .container-footer p{
+        margin-bottom: 15px;
+        color: grey;
     }
 
 }
