@@ -617,13 +617,16 @@ p{
     }
     /*-- home --*/
     .container-main-index{
-        width: 80%;
-        padding-left: 0;
-        padding-right: 0;
+        width: 90%;
+        margin-bottom: 10px;
+        padding: 10px;
     }
+
     .div-main-index{
-        padding: 0;
         padding-top: 10px;
+    }
+    #imagen1{
+        width: 95%;
     }
     /*-- rules --*/
     .container-main-rules{
@@ -642,6 +645,16 @@ p{
 
     .table{
         width: 50%;
+    }
+
+    /*-- footer --*/
+    .container-footer{
+        height: 100px;
+    }
+
+    .container-footer p{
+        margin-bottom: 15px;
+        color: grey;
     }
 
 }
