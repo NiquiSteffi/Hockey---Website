@@ -602,7 +602,7 @@ p{
     .navbar .navbar-toggler{
         background-color: white;
         margin-left: 10px;
-        width: 8%;
+        width: 10%;
         height: 35px;
         padding: 0;
     }
@@ -629,8 +629,14 @@ p{
         width: 95%;
     }
     /*-- rules --*/
+    .contenedor{
+        padding-top: 0;
+    }
     .container-main-rules{
+        width: 90%;
         padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 40px;
     }
     .titulos{
         padding-bottom: 10px;
@@ -647,6 +653,27 @@ p{
         width: 50%;
     }
 
+    /*-- about --*/
+    .container-main-about{
+        width: 90%;
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    #imagen2{
+        width: 95%;
+    }
+
+    /*-- form --*/
+    .container-main-form{
+        width: 90%;
+    }
+
+    .form{
+        width: 90%;
+    }
+
     /*-- footer --*/
     .container-footer{
         height: 100px;
@@ -658,6 +685,15 @@ p{
     }
 
 }
+
+
+
+
+
+
+
+
+
 
 /*-----------------------------------------------------------*/
 @media (max-width: 320px){
