@@ -618,7 +618,8 @@ p{
     /*-- home --*/
     .container-main-index{
         width: 90%;
-        margin-bottom: 10px;
+        margin-top: 50px;
+        margin-bottom: 40px;
         padding: 10px;
     }
 
@@ -627,6 +628,7 @@ p{
     }
     #imagen1{
         width: 95%;
+        padding-top: 8px;
     }
     /*-- rules --*/
     .contenedor{
@@ -647,12 +649,24 @@ p{
     .container-main-gameinfo{
         width: 90%;
         padding: 8px;
+        margin-top: 50px;
+        margin-bottom: 40px;
     }
-
+    
     .table{
         width: 50%;
     }
+    
+    .p-above-table{
+        margin: 10px;
+        margin-top: 0;
+    }
 
+    .p-under-table{
+        margin: 10px;
+        margin-top: 0;
+    }
+    
     /*-- about --*/
     .container-main-about{
         width: 90%;
@@ -666,12 +680,127 @@ p{
     }
 
     /*-- form --*/
+    .contendor-form{
+        width: 100%;
+        margin: 0;
+    }
     .container-main-form{
-        width: 90%;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 40px;
     }
 
     .form{
         width: 90%;
+        padding: 0;
+    }
+
+    .fieldset{
+        margin: 0;
+    }
+
+    .fieldset-right{
+        margin-left: 60px;
+    }
+
+    .grade .div-grade{
+        width: 80px;
+    }
+
+    form{
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+    }
+
+    #h1-form{
+        margin-top: 0;
+    }
+
+    input{
+        width: 170px;
+    }
+
+    .input-radio{
+        width: 30px;
+    }
+
+    .input-checkbox{
+        width: 50px;
+    }
+
+    .div-grade label{
+        font-size: 13px;
+    }
+
+    .div-closet{
+        margin-left: 10px;
+    }
+
+    .div-closet label{
+        font-size: 11px;
+    }
+
+    .div-closet1 label{
+        font-size: 11px;
+    }
+
+    .div-position{
+        width: 60px;
+        margin-left: 30px;
+    }
+
+    .div-position1{
+        width: 60px;
+        margin-left: 30px;
+    }
+
+    .div-position label{
+        font-size: 12px;
+    }
+
+    .div-position1 label{
+        font-size: 12px;
+    }
+
+    .div-uniform{
+        margin-left: 10px;
+    }
+
+    .div-uniform label{
+        font-size: 12px;
+    }
+
+    .div-uniform1 label{
+        font-size: 12px;
+    }
+
+    .form h3{
+        font-size: 20px;
+    }
+
+    .form h4{
+        font-size: 20px;
+    }
+
+    .form h5{
+        font-size: 16px;
+    }
+
+    .buttom{
+        width: 80px;
+    }
+
+
+    /*-- contact --*/
+    .contenedor .container-main-contact{
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    #imagen3{
+        width: 60%;
     }
 
     /*-- footer --*/
