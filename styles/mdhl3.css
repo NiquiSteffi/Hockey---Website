@@ -647,14 +647,25 @@ p{
     }
     /*-- game info --*/
     .container-main-gameinfo{
-        width: 90%;
-        padding: 8px;
+        width: 98%;
+        padding: 6px;
         margin-top: 50px;
         margin-bottom: 40px;
+        border: 2px solid rgb(187, 21, 21);
+        border-radius: 7px;
+    }
+
+    .div-main h2{
+        padding: 0 50px 10px 50px;
+        border-bottom: 1px solid gray;
     }
     
     .table{
         width: 50%;
+    }
+
+    .table-responsive{
+        width: 100%;
     }
     
     .p-above-table{
@@ -687,12 +698,14 @@ p{
     .container-main-form{
         width: 100%;
         margin-top: 50px;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
 
     .form{
         width: 90%;
         padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .fieldset{
